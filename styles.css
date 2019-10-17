@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/*** TAG Selectors ***/
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: darkcyan;
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  padding: 2px;
+}
+
+a {
+  color: #6c7b95;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(6, 153, 153);
+}
+
+p {
+  color: #6c7b95;
+  font-family: "Pacifico", cursive;
+  margin-top: 10px;
+}
+
+table {
+  margin: 20px;
+  width: 60%;
+}
+
+td {
+  padding: 3px;
+  text-align: left;
+  width: 0px;
+}
+
+img {
+  border-radius: 180%;
+  height: 60px;
+  width: 60px;
+}
+
+section {
+  height: 564px;
+  margin-top: 100px;
+}
+
+/*** CLASS Selectors ***/
+
+.header {
+  background: linear-gradient(35deg, darkcyan, white);
+  height: 90px;
+  width: 100%;
+  padding: 0px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.name {
+  color: rgba(255, 255, 255, 0.842);
+  font-family: "Pacifico", cursive;
+  font-weight: lighter;
+  font-size: 15px;
+  flex: 1;
+  margin-left: 7px;
+  margin-top: 28px;
+}
+
+.mainHeader {
+  flex: 2;
+  text-align: center;
+}
+.mainHeader p {
+  margin-top: 0px;
+  padding-top: 0px;
+  color: whitesmoke;
+}
+.aboutMe1 {
+  height: 564px;
+  margin-top: 80px;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.emojiContainer {
+  align-content: center;
+  background: linear-gradient(35deg, darkcyan, white);
+  border-radius: 50%;
+  display: flex;
+  height: 170px;
+  justify-content: center;
+  margin: auto auto 5px auto;
+  width: 170px;
+}
+
+.emoji {
+  border-radius: 0;
+  height: 100px;
+  width: 110px;
+  margin: auto;
+}
+
+/*** Change Horizontal Rule Style ***/
+.main {
+  border-style: dotted none none none;
+  border-width: 6px;
+  border-color: darkcyan;
+  height: 10px;
+  margin: 20px auto 0px auto;
+  width: 5%;
+}
+
+.cellHeader {
+  font-weight: bold;
+}
+
+.computerLogo {
+  height: 45px;
+  width: 45px;
+  border-radius: 0;
+}
+
+.cpSkills {
+  display: flex;
+}
+
+.cpTable1 {
+  flex: 1;
+}
+
+.cpTable2 {
+  flex: 1;
+}
+
+.cpTable3 {
+  flex: 1;
+}
+
+.cpTable {
+  width: 350px;
+}
+
+.cpTable td {
+  text-align: left;
+}
+.language {
+  display: flex;
+}
+
+.languageTable1 {
+  flex: 1;
+}
+
+.languageTable2 {
+  flex: 1;
+}
+
+.languageTable {
+  width: 650px;
+}
+
+.cpTable td {
+  text-align: left;
+}
+
+.expandingDiv {
+  border: 0px solid;
+  height: 50px;
+  width: auto;
+  margin-top: 35px;
+  margin-left: 0px;
+  /*clear: both;*/
+  -webkit-transition: line-height 1.2s, height 1.2s, opacity 1.2s,
+    border-radius 3s;
+  display: flex;
+  justify-content: center;
+}
+
+.expandingDiv:hover {
+  background: linear-gradient(35deg, darkcyan, white);
+  color: black;
+  height: 350px;
+  line-height: 25px;
+  display: block;
+  border-radius: 0px;
+}
+
+.expandingDiv p {
+  color: darkcyan;
+  text-align: justify;
+  width: 70%;
+}
+
+.expandingDiv:hover p {
+  display: none;
+}
+
+.expandingDiv table {
+  display: none;
+}
+
+.expandingDiv:hover table {
+  display: inline-table;
+}
+
+#photo {
+  height: 60px;
+  width: 60px;
+  margin-top: 12px;
+  margin-right: 0;
+}
+
+#placeHolder1 {
+  height: 5px;
+}
+
+#placeHolder2 {
+  height: 5px;
+}
+
+#placeHolder3 {
+  height: 5px;
+}
+
+#placeHolder4 {
+  height: 5px;
+}
